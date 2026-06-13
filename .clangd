@@ -1,0 +1,5 @@
+# Setting for clangd compiler to avoid warning in main.cpp for arrow
+CompileFlags:
+    Compiler: /usr/bin/g++
+    Add:
+        - -std=c++20
