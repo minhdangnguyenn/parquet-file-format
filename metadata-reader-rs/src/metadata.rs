@@ -1,6 +1,6 @@
 use parquet::{
     basic::{ConvertedType, Repetition, Type as PhysicalType},
-    schema::{parser, printer, types::Type},
+    schema::types::Type,
 };
 use std::sync::Arc;
 
