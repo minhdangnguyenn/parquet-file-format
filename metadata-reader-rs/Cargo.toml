@@ -1,0 +1,7 @@
+[package]
+name = "metadata-reader-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+parquet = { version = "59.0.0", default-features = false, features = ["arrow", "snap", "zstd"] }
